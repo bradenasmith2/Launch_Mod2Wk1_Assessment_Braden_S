@@ -11,3 +11,5 @@ A database is a collection of data that results in storing information. The data
 
 4. In a database, how do we create relationships between tables?
 In a database there are two types of keys, and these are Primary and Foreign. Each table must have a Primary Key, most commonly this is a serial, on the otherhand not every table needs a foreign key, but some can have several. For example, in our Library SQL, we identified patrons with a serial (Primary Key) and in the books table we identified that same corresponding serial to a foreign key, which allowed us to track which user has which book based on any given user's serial.
+
+Making changes here so that I can merge the branches. Had issues with Mac, answered questions and SQL outside of VS, opened on Windows to Merge.
