@@ -1,13 +1,13 @@
 *** QUESTIONS ***
 
 1. What does it mean to `commit` in a git repository?
-< Your answer here >
+Commit is a way of saving, and bookmarking progress, so that a point is created in which we can go back to if need be. 
 
 2. When should you create a new branch?  Use examples in your answer!
-< Your answer here >
+Branches should be made when you are about to start a larger piece of the project that may cause bugs. The idea of 'Main' is to keep it as clean as possible, with minimal bugs, and you create branches to test new features, before merging them into 'Main'. For example, in our Denver Library project, I would have created a branch for each class --especially if those classes had methods that interacted with other classes. I would have also then created another branch for 'Main' to begin working in all the methods from those classes, therefore if I made a mistake I could go back to the 'Main' branch.
 
 3. In your own words, what is a database?  Use examples to explain.
-< Your answer here >
+A database is a collection of data that results in storing information. The database collects data from a program (or in our case in SQL), and then once we set parameters the database will connect that data, turning it into useful information. This will help us keep track of things like a Person: full_name, email_address, home_address, telephone_number, but they are all connected to that singular person, which can be identified by a serial number (or other UNIQUE identifier).
 
 4. In a database, how do we create relationships between tables?
-< Your answer here >
+In a database there are two types of keys, and these are Primary and Foreign. Each table must have a Primary Key, most commonly this is a serial, on the otherhand not every table needs a foreign key, but some can have several. For example, in our Library SQL, we identified patrons with a serial (Primary Key) and in the books table we identified that same corresponding serial to a foreign key, which allowed us to track which user has which book based on any given user's serial.
